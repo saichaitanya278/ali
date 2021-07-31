@@ -2,10 +2,10 @@ sudo pacman -S --needed base-devel -y
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
-:' virtualbox
+: ' virtualbox
 paru -S xf86-video-vmware  terminator xfce4
 '
-:'my host
+: ' my host
 paru -S xf86-video-amdgpu qtile rofi nitrogen picom pcmanfm lxsession alacritty xfce4-power-manager  -y
 paru -S brave-bin telegram-desktop-bin terminator qbittorrent  light flatpak virtualbox pavucontrol rhythmbox freeoffice -y
 git clone https://gitlab.com/saichaitanya278/dotfiles.git  
