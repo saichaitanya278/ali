@@ -10,6 +10,6 @@ swapon /dev/sda2
 mount /dev/sda3 /mnt
 mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot/
-pacstrap /mnt base linux linux-firmware nano grub efibootmgr networkmanager git network-manager-applet wireless_tools wpa_supplicant dialog os-prober mtools dosfstools base-devel linux-headers reflector
+pacstrap /mnt base linux linux-firmware nano grub efibootmgr vim networkmanager git network-manager-applet wireless_tools wpa_supplicant dialog os-prober mtools dosfstools base-devel linux-headers reflector
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
