@@ -11,6 +11,7 @@ sudo systemctl enable lightdm
 #cp -r ~/dotfiles/.config/rofi/  ~/.config
 #sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader nvidia nvidia-dkms nvidia-prime lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 paru -S zsh zsh-syntax-highlighting  zsh-autosuggestions autojump exa -y
+cd ~
 git clone --recursive https://github.com/saichaitanya278/zsh.git
 git clone https://github.com/romkatv/powerlevel10k.git
 ln -s -f ~/zsh/.zshrc ~/.zshrc
