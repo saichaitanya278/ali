@@ -1,9 +1,9 @@
-sudo pacman -S --needed base-devel 
+sudo pacman -S --needed base-devel -y
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
-paru -S xf86-video-amdgpu xorg  pcmanfm  sxiv alacritty xfce4 celluloid nerd-fonts-mononoki lightdm lightdm-webkit-theme-aether lightdm-webkit2-greeter neofetch
-#paru -S brave-bin telegram-desktop-bin terminator qbittorrent file-roller light net-tools  flatpak virtualbox pavucontrol rhythmbox  freeoffice  qtile rofi nitrogen picom pcmanfm lxsession sxiv alacritty xfce4-power-manager 
+paru -S xf86-video-amdgpu xorg  pcmanfm  sxiv alacritty xfce4 celluloid nerd-fonts-mononoki lightdm lightdm-webkit-theme-aether lightdm-webkit2-greeter neofetch -y
+#paru -S brave-bin telegram-desktop-bin terminator qbittorrent file-roller light net-tools  flatpak virtualbox pavucontrol rhythmbox  freeoffice  qtile rofi nitrogen picom pcmanfm lxsession sxiv alacritty xfce4-power-manager  -y
 sudo systemctl enable lightdm
 #git clone https://gitlab.com/saichaitanya278/dotfiles.git  
 #cp -r ~/dotfiles/.config/qtile/ ~/.config
