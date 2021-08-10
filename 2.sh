@@ -8,7 +8,8 @@ echo "127.0.0.1 localhost
 ::1       localhost
 127.0.1.1 archlinux.localdomain archlinux" >> /etc/hosts
 passwd
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-install --target=i386-pc /dev/vda
+#grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager
 useradd -mG wheel sai
