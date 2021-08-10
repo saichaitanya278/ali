@@ -15,7 +15,3 @@ systemctl enable NetworkManager
 useradd -mG wheel sai
 passwd sai
 echo '%wheel ALL=(ALL) ALL' &>>/etc/sudoers
-sudo pacman -S --needed base-devel 
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
