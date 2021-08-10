@@ -1,3 +1,4 @@
+sudo reflector --verbose --country 'India' -l 5 --sort rate --save /etc/pacman.d/mirrorlist
 sudo pacman -S --needed base-devel -y
 git clone https://aur.archlinux.org/paru.git
 cd paru
