@@ -2,7 +2,7 @@ sudo pacman -S --needed base-devel -y
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
-paru -S exfat-utils autofs fuse2 fuse3 fuse fuseiso xorg-server xorg-xinit font-bh-ttf  gsfonts sdl_ttf ttf-bitstream-vera ttf-dejavu ttf-liberation xorg-fonts-type1  ttf-indic-otf  noto-fonts-emoji font-bh-ttf  sdl_ttf ttf-bitstream-vera ttf-dejavu ttf-liberation xorg-fonts-type1 alsa-utils alsa-plugins  pulseaudio pulseaudio-alsa  unrar  zip unzip p7zip gvfs-mtp  jmtpfs  mtpfs  xdg-user-dirs -y
+#paru -S exfat-utils autofs fuse2 fuse3 fuse fuseiso xorg-server xorg-xinit font-bh-ttf  gsfonts sdl_ttf ttf-bitstream-vera ttf-dejavu ttf-liberation xorg-fonts-type1  ttf-indic-otf  noto-fonts-emoji font-bh-ttf  sdl_ttf ttf-bitstream-vera ttf-dejavu ttf-liberation xorg-fonts-type1 alsa-utils alsa-plugins  pulseaudio pulseaudio-alsa  unrar  zip unzip p7zip gvfs-mtp  jmtpfs  mtpfs  xdg-user-dirs -y
 paru -S lightdm lightdm-webkit-theme-aether lightdm-webkit2-greeter xfce4 xorg 
 sudo systemctl enable lightdm
 : ' virtualbox
