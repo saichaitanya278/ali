@@ -25,6 +25,6 @@ mount /dev/sda1 /mnt/boot/
 mkfs.ext4 /dev/sda1
 mount /dev/sda1 /mnt
 '
-pacstrap /mnt base linux-lts linux-firmware nano grub efibootmgr vim networkmanager git network-manager-applet wireless_tools wpa_supplicant dialog os-prober mtools dosfstools base-devel linux-lts-headers reflector
+pacstrap /mnt base linux linux-firmware nano grub efibootmgr vim networkmanager git network-manager-applet wireless_tools wpa_supplicant dialog os-prober mtools dosfstools base-devel linux-headers reflector
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
